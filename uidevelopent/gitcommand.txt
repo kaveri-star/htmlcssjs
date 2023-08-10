@@ -1,0 +1,25 @@
+GIT is a s/w (VCS)
+
+url:
+https://git-scm.com/
+
+https://github.com/joshnh/Git-Commands
+
+Git Commands
+============ 
+
+git clone "url" (adding the repository into native machine)
+
+//Submit Commands
+git status
+git add .
+git commit -m "v1"
+git push
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+
+//Fetch Data
+============ 
+git fetch 
+git pull
