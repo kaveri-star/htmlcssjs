@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>table styling</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        table,tr,th,td{
+            border:1px solid pink;
+            padding:5px;
+            border-spacing: 5px;
+        }
+        th,td{
+            height:50px;
+            vertical-align: top;
+            vertical-align: bottom;
+        }
+        th,td{
+            text-align: left;
+            text-align: right;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>list of products</caption>
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Product Name</th>
+                <th>prices</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>samsung</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>mi</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>vivo</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>lenovo</td>
+                <td>60000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td  colspan="2">Total</td>
+                <td>170000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

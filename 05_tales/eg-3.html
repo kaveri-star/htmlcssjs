@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>table styling</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        table,tr,th,td{
+            border:1px solid pink;
+            padding:5px;
+            border-spacing: 5px;
+            border-collapse: collapse;
+            border-collapse: separate;
+        }
+        caption{
+            caption-side: bottom;
+            caption-side: top;
+            
+        }
+        td{
+            empty-cells: show;
+            empty-cells: hide;
+        }
+       
+    </style>
+</head>
+<body>
+    <table>
+        <caption>list of products</caption>
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Product Name</th>
+                <th>prices</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>samsung</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>mi</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>vivo</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>lenovo</td>
+                <td>60000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td  colspan="2">Total</td>
+                <td>170000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
