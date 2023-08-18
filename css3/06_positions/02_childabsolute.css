@@ -1,0 +1,26 @@
+
+.c2{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: rosybrown;
+    position: relative;
+    top: 8px;
+}
+.c3{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: navy;
+}
+
+
+.c22{
+    padding: 5px;
+    margin: 5px;
+    position:absolute;
+    top: 2px;
+    bottom: 2px;
+    right: 10px;
+    left: 3px;
+}

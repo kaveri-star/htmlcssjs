@@ -1,0 +1,28 @@
+.c1{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: chartreuse;
+}
+.c2{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: rosybrown;
+}
+.c3{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: navy;
+}
+.c4{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: fuchsia;
+    position: relative;
+    top: 20px;
+    bottom: 100px;
+    
+}
