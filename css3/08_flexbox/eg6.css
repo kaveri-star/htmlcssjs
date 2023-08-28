@@ -1,0 +1,36 @@
+.dropdown-btn{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border: none;
+    padding: 10px 45px;
+}
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 38px;
+}
+.dropdown-container:hover .dropdown-content{
+    display:block;
+    
+
+}
+.dropdown-content {
+    display: none;
+    background-color: wheat;
+    position: absolute;
+    
+}
+section,.main{
+    display: flex;
+    margin: 5px;
+    flex: 1;
+}
+.main:nth-child(1){
+    display: flex;
+    margin: 5px;
+    flex: 2;
+}
+section{
+    background-color: cornflowerblue;
+}

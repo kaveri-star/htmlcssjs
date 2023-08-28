@@ -1,0 +1,24 @@
+
+.dropdown-btn{
+    background-color: aquamarine;
+    color: aliceblue;
+    border: none;
+    padding: 10px 45px;
+}
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 38px;
+}
+.dropdown-container:hover .dropdown-content{
+    display:block;
+    
+
+}
+.dropdown-content {
+    display: none;
+    background-color: wheat;
+    position: absolute;
+    
+}

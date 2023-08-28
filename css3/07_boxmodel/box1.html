@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>box model</title>
+        <style>
+          .s1 div{
+           
+            padding: 20px;
+            margin: 10px;
+
+            /*box model*/
+            width:25%;
+            float: left;
+
+            box-sizing: border-box;
+            width: 23.3%;
+            height: 300px;
+          }
+          .s2 div{
+            
+            padding: 20px;
+            margin: 10px;
+
+            /*box model*/
+            width:99%;
+            float:left;
+
+            box-sizing: border-box;
+            width: 98.3%;
+            height: 300px;
+          }
+          .s3 div{
+            
+            padding: 20px;
+            margin: 10px;
+
+            /*box model*/
+            width:30%;
+            float:left;
+
+            box-sizing: border-box;
+            width: 31.7%;
+            height: 300px;
+          }
+          .s1 div img{
+            height: 300px;
+            width: 300px;
+            object-fit: fill;
+            
+          }
+          .s2 div img{
+            height: 270px;
+            width: 1230px;
+            object-fit: fill;
+            
+          }
+          .s3 div img{
+            height: 270px;
+            width: 400px;
+            object-fit: fill;
+            
+          }
+        </style>
+        
+        
+    </head>
+    <body>
+       <section class="s1">
+       <div>
+        <img src="https://img.freepik.com/free-photo/luxurious-car-parked-highway-with-illuminated-headlight-sunset_181624-60607.jpg?size=626&ext=jpg&ga=GA1.1.679230322.1691685296&semt=sph">
+       </div>
+       <div>
+        <img src="https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?size=626&ext=jpg&ga=GA1.1.679230322.1691685296&semt=sph">
+       </div>
+       <div><img src="https://img.freepik.com/free-photo/yellow-sport-car-with-black-autotuning-road_114579-5051.jpg?size=626&ext=jpg&ga=GA1.1.679230322.1691685296&semt=sph"></div>
+       <div><img src="https://img.freepik.com/free-photo/luxury-car-speeds-by-modern-building-dusk-generative-ai_188544-8048.jpg?size=626&ext=jpg&ga=GA1.2.679230322.1691685296&semt=sph"></div>
+       </section>
+       <section class="s2">
+        <div><img src="https://img.freepik.com/free-photo/white-sport-car-with-autotuning-stripes-road_114579-5052.jpg?size=626&ext=jpg&ga=GA1.2.679230322.1691685296&semt=sph" ></div>
+       </section>
+       <section class="s3">
+        <div><img src="https://img.freepik.com/free-photo/yellow-sport-car-with-black-autotuning-road_114579-5051.jpg?size=626&ext=jpg&ga=GA1.1.679230322.1691685296&semt=sph"></div>
+        <div><img src="https://img.freepik.com/free-photo/yellow-sport-car-with-black-autotuning-road_114579-5051.jpg?size=626&ext=jpg&ga=GA1.1.679230322.1691685296&semt=sph"></div>
+        <div><img src="https://img.freepik.com/free-photo/yellow-sport-car-with-black-autotuning-road_114579-5051.jpg?size=626&ext=jpg&ga=GA1.1.679230322.1691685296&semt=sph"></div>
+        
+        </section>
+    </body>
+</html>
