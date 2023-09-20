@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        button{
+            position: relative;
+            left: 600px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="openw()"> open window</button>
+    <button onclick="closew()"> close window</button>
+
+    <script>
+        function openw(){
+            window.open("http://www.google.com"," ","width=500px, height=500px")
+        }
+
+        function closew(){
+            window.close()
+        }
+    </script>
+</body>
+</html>

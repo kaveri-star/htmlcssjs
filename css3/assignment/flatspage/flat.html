@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./flat.css">
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="home d-flex flex-column justify-content-end">
+            <div class="card ">
+                <h1 class="homehead">sunrise avenue</h1>
+                <p class="homep">Move to what moves you</p>
+                <div class="a">
+                    <button class="bt" onclick="display('sectionflatlist')">book flat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionflatlist">
+        <div class="homeflatlist d-flex flex-column">
+            <h1 class="homehead">Sunrise Avenue</h1>
+            <div class=" card1 d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="image1" onclick="display('section3bhk')">
+                <div>
+                    <h1 class="h1">3BHK Flat</h1>
+                    <p class="p1">this is fully furnished home with full color viberancy
+                        it is modern. </p>
+                </div>
+            </div>
+            <div class=" card1 d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="image1" onclick="display('section2bhk')">
+                <div>
+                    <h1 class="h1">2BHK Flat</h1>
+                    <p class="p1">this is fully furnished home with full color viberancy
+                        it is modern. </p>
+                </div>
+            </div>
+            <div class=" card1 d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="image1" onclick="display('section4bhk')">
+                <div>
+                    <h1 class="h1">4BHK Flat</h1>
+                    <p class="p1">this is fully furnished home with full color viberancy
+                        it is modern. </p>
+                </div>
+            </div>
+            <div>
+                <button class="bt" onclick="display('sectionhome')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section3bhk">
+        <div class="bgimage1 d-flex flex-column">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png">
+            <div class="Description">
+                <h1 class="homehead">RS 3000/-</h1>
+                <p class="p2"><img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="im1">D/N 5-2,foodstreet,indore</p>
+                <hr>
+                <h1 class="homehead">Description</h1>
+                <p class="p3">
+                    this is fully furnished home with full color viberancy. comfortable for living with your family members.
+                </p>
+            </div>
+            <div class="button1">
+                <button class="bt mr-3">
+                    confirm
+                </button>
+                <button class="bt" onclick="display('sectionflatlist')">
+                    back
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="section2bhk">
+        <div class="bgimage1 d-flex flex-column">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png">
+            <div class="Description">
+                <h1 class="homehead">RS 2000/-</h1>
+                <p class="p2"><img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="im1">D/N 5-2,fashionstreet,indore</p>
+                <hr>
+                <h1 class="homehead">Description</h1>
+                <p class="p3">
+                    this is fully furnished home with full color viberancy. comfortable for living with your family members.
+                </p>
+            </div>
+            <div class="button1">
+                <button class="bt mr-3">
+                    confirm
+                </button>
+                <button class="bt" onclick="display('sectionflatlist')">
+                    back
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="section4bhk">
+        <div class="bgimage1 d-flex flex-column">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png">
+            <div class="Description">
+                <h1 class="homehead">RS 4000/-</h1>
+                <p class="p2"><img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="im1">D/N 5-2,fashionstreet,indore</p>
+                <hr>
+                <h1 class="homehead">Description</h1>
+                <p class="p3">
+                    this is fully furnished home with full color viberancy. comfortable for living with your family members.
+                </p>
+            </div>
+            <div class="button1">
+                <button class="bt mr-3">
+                    confirm
+                </button>
+                <button class="bt" onclick="display('sectionflatlist')">
+                    back
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

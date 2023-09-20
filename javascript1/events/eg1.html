@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        button{
+            background-color: blue;
+            position: relative;
+            left: 300px;
+            
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="f1()"> single click</button>
+    <button onclick="f2()"> single click</button>
+    <button ondblclick="f3()"> double click</button>
+    <button oncontextmenu="f4()"> context click</button>
+    <button onmouseover="f5()"> mouse over click</button>
+    <button onmouseout="f6()"> mouse out click</button>
+
+
+    <script>
+        function f1(){
+            console.log("f1 function")
+        }
+        function f2(){
+            alert("f2 function")
+        }
+        function f3(){
+            alert("f3 function")
+        }
+        function f4(){
+            alert("f4 function")
+        }
+        function f5(){
+            alert("f5 function")
+        }
+        function f6(){
+            alert("f6 function")
+        }
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+        fill the form
+        </legend>
+        <form action="">
+           <lael for="fname">FirstName</lael>
+           <input type="text" id="id1" onfocus="f1()">
+
+           <lael for="lname">LastName</lael>
+           <input type="text" id="id2" onfocus="f2()">
+        </form>
+    </fieldset>
+
+    <script>
+        function f1(){
+            var v=document.getElementById("id1")
+            v.style.borderColor="blue"
+            v.style.padding="15px"
+            v.style.width="250px"
+            v.style.borderRadius="5px"
+            console.log("onfocus form input failed")
+        }
+        function f2(){
+            var v=document.getElementById("id2")
+            v.style.borderColor="pink"
+            v.style.padding="15px"
+            v.style.width="250px"
+            v.style.borderRadius="5px"
+            console.log("onfocus form input failed")
+        }
+    </script>
+</body>
+</html>
