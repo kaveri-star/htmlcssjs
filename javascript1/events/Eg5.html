@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <label for="">Selec City</label>
+    <select name="" id="id1" onchange="f1()">
+        <optgroup label="city">
+            <option value="CityOne">CityOne</option>
+            <option value="CityTwo">CityTwo</option>
+            <option value="CityThree">CityThree</option>
+            <option value="CityFour">CityFour</option>
+        </optgroup>
+    </select>
+
+    <br><br>
+
+    <section style="border:1px solid blue; font-size: xx-large;">
+        <p><b>Selected Text is: </b></p>
+        <p id="id2"></p>
+    </section>
+
+    <script>
+        function f1(){
+            var v = document.getElementById("id1").value;
+            document.getElementById("id2").innerHTML = v;
+        }
+    </script>
+</body>
+
+</html>

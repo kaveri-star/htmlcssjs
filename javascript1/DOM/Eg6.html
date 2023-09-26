@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p class="c1">NameOne</p>
+        <p class="c1">NameTwo</p>
+        <p class="c1">NameThree</p>
+        <p class="c1">NameFour</p>
+    </div>
+
+    <script>
+        //HTML Collection
+        var v = document.getElementsByClassName('c1')
+        console.log(v)
+        var v = document.getElementsByTagName('p')
+        console.log(v)
+
+        //Node List
+        var v = document.querySelectorAll('.c1')
+        console.log(v)
+        var v = document.querySelector('.c1')
+        console.log(v)
+
+        var users = ["Sai Kiran", "Sai Ram", "Sai Kumar", "Sai Vamsi"]
+        console.log(users)
+        var v = document.getElementsByTagName('p')
+        for(var i = 0; i< v.length; i++){
+           v[i].innerHTML = "UserName: "  + users[i]
+        }
+    </script>
+</body>
+</html>

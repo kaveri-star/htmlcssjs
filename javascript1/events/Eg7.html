@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <fieldset>
+        <legend>Fill the form</legend>
+        <form action="" method="post">
+            <label for="">FirstName</label>
+            <input type="text" name="firstName" id="" required>
+    
+            <br><br>
+    
+            <label for="">LastName</label>
+            <input type="text" name="lastName" id="" required>
+    
+            <br><br>
+            <label for="">Email</label>
+            <input type="email" name="email" id="email" required>
+    
+            <br><br>
+            <label for="">Pancard</label>
+            <input type="text" name="pancard" id="pancard" required>
+    
+            <br><br>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+
+    <script>
+        document.getElementById("email").addEventListener('input', function(){
+            this.value = this.value.toLowerCase()
+        })
+        document.getElementById("pancard").addEventListener('input', function(){
+            this.value = this.value.toUpperCase()
+        })
+    </script>
+</body>
+</html>

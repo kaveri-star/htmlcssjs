@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul class="c1">
+            <li>ListOne</li>
+            <li>ListTwo</li>
+            <li>ListThree</li>
+            <li>ListFour</li>
+        </ul>
+    </div>
+
+    <script>
+        //Not a HTML Collection
+        // var v = document.getElementById("c1")
+        // console.log(v)
+
+        // HTML Collection
+        // var v = document.getElementsByClassName("c1")
+        // console.log(v)
+
+        var v = document.getElementsByTagName("li")
+        console.log(v)
+
+        //Iteration
+        for(var i = 0; i<v.length; i++){
+            v[i].style.backgroundColor = "lightgreen"
+            v[i].style.fontStyle = "italic"
+            v[i].style.padding = "15px"
+            v[i].style.fontSize = "larger"
+        }
+
+    </script>
+</body>
+</html>

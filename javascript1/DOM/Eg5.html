@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>querySelector and querySelectorALL</title>
+</head>
+<body>
+    <div id="id1">
+        <p>Java is Objeect Oriented PL</p>
+    </div>
+
+    <div id="id1">
+        <p>Python is Objeect Oriented PL</p>
+    </div>
+
+    <div id="id1">
+        <p>JavaScript is Objeect Oriented PL</p>
+    </div>
+
+    <ul>
+        <li class="list1">ListOne</li>
+        <li class="list1">ListTwo</li>
+        <li class="list1">ListThree</li>
+        <li class="list1">ListFour</li>
+    </ul>
+
+    <div>
+        <p class="c1">ClassOne</p>
+        <p class="c1">ClassTwo</p>
+        <p class="c1">ClassThree</p>
+        <p class="c1">ClassFour</p>
+    </div>
+
+    <script>
+        var v1 = document.querySelector("#id1")
+        v1.style.backgroundColor = 'skyblue'
+
+        var v2 = document.querySelectorAll("#id1")
+        for(var i = 0; i< v2.length; i++){
+            console.log(v2[i].style.backgroundColor = "blue")
+        }
+
+        var l3 = document.querySelector('.list1')
+        l3.style.color = 'red'
+
+        var l4 = document.querySelectorAll('.c1')
+        for(var i = 0; i< l4.length; i++){
+            console.log(l4[i].style.backgroundColor = "lightgreen")
+        }
+    </script>
+</body>
+</html>

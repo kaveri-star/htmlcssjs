@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="div1">
+        <p id="p1">Java is Easy</p>
+        <p id="p2">Python is Hard</p>
+    </div>
+    
+   <script>
+
+        var para1 = document.createElement("p")
+        console.log(para1)
+        
+        var para2 = document.createElement("p")
+        console.log(para2)
+
+
+        var v1 = document.createTextNode("Java is an Object Oriented PL")
+        para1.appendChild(v1)
+
+        var v2 = document.createTextNode("Python is an Object Oriented PL")
+        para2.appendChild(v2)
+
+        var v3 = document.getElementById("div1")
+        v3.appendChild(para1)
+
+        var v4 = document.getElementById("div1")
+        v4.appendChild(para2)
+
+   </script>
+</body>
+</html>
