@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+/* navbar*/
+.dropdown-bg{
+    background-color:#E9204F;
+    
+    border-width: 0px;
+}
+.dropdown-item{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'serif';
+}
+#logo{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #E9204F ;
+    
+}
+.button{
+    background-color:#E9204F;
+    border-radius: 38px;
+    border-width: 0px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 10px;
+    width: 160px;
+}
+
+/* home page*/
+.bg-container{
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: left;
+}
+.head-top{
+    font-size: 32px;
+    font-family: 'sans-serif';
+    font-weight: 800;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 15px;
+    color: #474747;
+    padding-top: 20px;
+}
+
+
+.p1{
+    color: rgb(99, 92, 92);
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-knowmore{
+    background-color:#E9204F;
+    border-radius: 38px;
+    border-width: 0px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 10px;
+    width: 130px;
+    
+    
+
+}
+.btn-for-demo{
+    border: 2px solid  #E9204F;
+    border-radius: 38px;
+    background-color: white;
+    color:#E9204F;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 10px;
+    width: 180px;
+   
+
+}
+.home-image{
+    width: 700px;
+    height: 700px;
+}
+
+/* card*/
+.bg1-card{
+    background-color: #ebeef3;
+    
+}
+.card{
+    border-radius: 15px;
+    background-color: white;
+    text-align: left;
+    border-width: 0px;
+    padding: 10px;
+}
+.lmsimage{
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+.card-head{
+    font-size: 25px;
+    color: rgb(31, 30, 30);
+    font-weight: 600;
+    font-family: "Roboto";
+    padding: 10px;
+}
+.card-para{
+    font-size: 20px;
+    color: rgb(82, 78, 78);
+    font-weight: 500;
+    font-family: "Roboto";
+    padding-bottom: 5px;
+}
+.a1{
+    text-decoration: none;
+    color: rgb(233, 56, 85);
+    font-size: 20px;
+}
+
+/* Styles for the modal and overlay */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left:340px;
+    width: 400px;
+    height: 400;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding: 10px;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.header{
+    
+    padding: 10px;
+    background-color: rgb(212, 225, 230);
+}
+
+/*features */
+.features-bg{
+    padding: 15px;
+    margin: 10px;
+    margin-left: 10px;
+}
+.features-head{
+    font-size: 62px;
+    font-family: 'sans-serif';
+    font-weight: 900;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 15px;
+    color:black;
+    padding-top: 20px;
+}
+.p2{
+    font-size: 25px;
+    font-family: 'sans-serif';
+    font-weight: 500;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 15px;
+    color:rgb(107, 102, 102);
+    
+}
+.card1{
+    padding: 10px;
+    text-align: left;
+    
+
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.align{
+    text-align: center;
+}
+
+/* products and services */
+
+.product-services{
+    background-image: url("https://www.konalms.com/images/product_solutionbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.product-service{
+    text-align: center;
+    
+    
+
+}
+.product-head{
+    font-size: 26px;
+    font-family: 'sans-serif';
+    font-weight: 600;
+    padding: 20px;
+    
+    
+    color:rgb(92, 89, 89);
+    
+}
+.lms-head{
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    padding: 100px;
+    
+    color:#E9204F;
+    padding-top: 60px;
+
+
+}
+.solution-img{
+    background-color: #ffffff ;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #95959526;
+    text-align: center;
+}
+.p3{
+    font-size: 20px;
+    font-family: 'sans-serif';
+    font-weight: 400;
+    padding: 20px;
+    color:black;
+    padding-top: 20px; 
+}
+
+.manage-bg{
+    background-image: url("https://www.konalms.com/images/startbg.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 130px;
+    padding: 25px 0px 0px;
+    text-align: center;
+   
+    background-repeat: no-repeat;
+
+}
+.manage-head{
+    font-size: 32px;
+    font-family: 'roboto';
+    font-weight: 800;
+    padding: 30px;
+    margin: 15px;
+    margin-top: 15px;
+    color:#ffffff;
+    padding-top: 40px;
+
+}
+.manage-button{
+    border-width: 0px;
+    border-radius: 38px;
+    background-color: white;
+    color:#E9204F;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+    
+    width: 180px;
+    margin-bottom: 25px;
+}
+.client-head{
+    font-size: 32px;
+    font-family: 'roboto';
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    color:black;
+    padding-top: 40px;
+
+}
+.footer-bg{
+    background-color: #ebeef3;
+}
+.foot-head{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #E9204F ;
+}
+.padding1{
+    padding-left: 20px;
+    
+}
+.li1{
+    color:#4e4e4e;
+    font-size: 15px;
+    font-weight: 500;
+}
+.icon{
+    color: black;
+    font-size: 30px;
+    background-color: #ffffff;
+}
+

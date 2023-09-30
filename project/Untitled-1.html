@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Form</title>
+</head>
+<body>
+
+<h2>Simple Form</h2>
+
+<form id="myForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+  // JavaScript code to handle form submission
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Get the values entered by the user
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+
+    // Do something with the form data (e.g., send it to a server)
+    console.log("Name: " + name);
+    console.log("Email: " + email);
+
+    // You can also perform validation and other actions here
+
+    // Reset the form
+    document.getElementById("myForm").reset();
+  });
+</script>
+
+</body>
+</html>
